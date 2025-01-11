@@ -51,6 +51,7 @@ nav h4{
 .sing-in-btn{
     padding: 10px 20px;
     height: 40px;
+    font-weight: bold;
     border: 1px solid #006a50;
     border-radius: 8px;
     color: #006A50;
@@ -85,6 +86,7 @@ nav h4{
     background-color: white;
     border-radius: 16px;
     padding:15px ;
+    border: 1px solid rgba(0, 0, 0, 0.156);
 }
 .singal-box h6{
     font-size: 20px;
@@ -128,9 +130,10 @@ nav h4{
 .quotation-box{
     background-image: url('img/quote-bg.png');
     background-repeat: no-repeat;
-    background-position: 2% -3%;
+    background-position: 2% +9%;
     background-color: white;
-    padding: 25px 23px;
+    padding: 45px 23px;
+    border: 1px solid rgba(0, 0, 0, 0.156);
     border-radius: 16px;
     margin: 30px 0;
    
@@ -179,6 +182,7 @@ nav h4{
 .donation-box h3{
     padding: 35px 30px;
     background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.156);
     border-radius: 16px;
     margin: 20px 0;
     color: #0E0E0E;
