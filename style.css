@@ -2,8 +2,20 @@
 *{
     font-family: "Work Sans", serif;
     font-optical-sizing: auto;
+    margin: 0;
+    padding: 0;
+  
 }
 /* shared  */
+.bg-color{
+    background-color: #C6E4D6;
+}
+.title-color-and-font-size{
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 40px 0;
+}
 .width-of-section{
     width: 1280px;
     margin: 0 auto;
@@ -22,12 +34,15 @@
     background-color: #fff;
     border: 1px solid  #fff;
     color: #0e0e0ecc;
+    border: 1px solid #006a50;
 }
-/* navigation manu start */
+/* header-area start */
+
+
 nav{
+    padding: 40px 0;
     display: flex;
     justify-content: space-between;
-    background-color: white;
     align-items: center;
 
 }
@@ -58,4 +73,109 @@ nav h4{
 .hero-text h3{
     font-size: 56px;
     font-weight: bold;
+    margin: 10px 0;
 }
+/* header area end */
+/* first section start*/
+.first section{
+    padding: 100px 0;
+}
+.first-section-parent{
+    display: flex;
+    gap: 24px;
+}
+.singal-box{
+    background-color: white;
+    border-radius: 16px;
+    padding:15px ;
+}
+.singal-box h6{
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+/* first section end */
+/* second-section start */
+.vision-dic{
+    margin: 15px 0;
+    color: #0E0E0E;
+}
+.second-section-parent{
+    display: flex;
+    gap: 24px;
+}
+
+.singal-Vision{
+    border-radius: 16px;
+    padding:35px;
+    margin-top: 10px;
+}
+.singal-Vision h6{
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.singal-Vision a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    color:#0e0e0e;
+    border-radius: 8px;
+}
+/* second-section end */
+/* fifith section start */
+.recent-news{
+    display: flex;
+    gap: 30px;
+    padding: 50px;
+    background-color: white;
+    border-radius: 24px;
+    margin-top: 30px;
+}
+.recent-news > div img{
+    border-radius: 24px;
+}
+.singal-recent-news h4{
+    color: #0e0e0e;
+    font-size: 32px;
+    font-weight: 700;
+}
+.singal-recent-news p{
+    color: #0e0e0ec0;
+    line-height: 30px;
+    margin: 20px 0;
+
+}
+
+/* fifith section end */
+/* six section start */
+.donation-parent{
+    
+    justify-content: center;
+    text-align: center;
+}
+.donation-box{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.donation-box h3{
+    padding: 25px 30px;
+    background-color: white;
+    border-radius: 16px;
+    margin: 20px 0;
+    color: #0E0E0E;
+}
+.donation-parent input[type="text"]{
+    width: 1032px;
+    height: 64px;
+    text-align: center;
+    border: none;
+    margin-bottom: 30px;
+}
+
+/* six section end */
