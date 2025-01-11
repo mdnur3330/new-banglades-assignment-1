@@ -204,8 +204,15 @@ nav h4{
     border: none;
     font-size: 18px;
     font-weight: 700;
-    /* transition: 0.5s; */
 }
 
-/* seventh section start */
+/* seventh section end */
+/* footer start */
+footer{
+    text-align: center;
+}
+footer div a{
+    margin-left:15px ;
+}
+/* footer end */
 
